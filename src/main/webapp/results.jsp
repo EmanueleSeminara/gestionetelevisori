@@ -61,6 +61,8 @@ th.pulsante{
 		%>
 
 	<tr><th colspan="4" class="pulsante"><a href="PrepareInsertServlet">Aggiungi Televisore</a></th></tr>
+	<tr><th colspan="4" class="pulsante"><a href="searchForm.jsp">Home</a></th></tr>
+	
 	</table>
 </body>
 </html>
