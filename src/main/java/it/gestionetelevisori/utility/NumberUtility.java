@@ -5,7 +5,7 @@ public class NumberUtility {
 		try {
 			return Integer.parseInt(numeroInput);
 		} catch (Exception e) {
-			return null;
+			return 0;
 		}
 	}
 

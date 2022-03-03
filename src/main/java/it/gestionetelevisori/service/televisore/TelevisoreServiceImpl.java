@@ -43,4 +43,9 @@ public class TelevisoreServiceImpl implements TelevisoreService {
 
 	}
 
+	@Override
+	public List<Televisore> ricercaTelevisori(Televisore televisoreInput) throws Exception {
+		return televisoreDAO.findByExample(televisoreInput);
+	}
+
 }

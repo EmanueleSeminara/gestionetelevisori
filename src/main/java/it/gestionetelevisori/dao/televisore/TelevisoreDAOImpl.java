@@ -1,6 +1,7 @@
 package it.gestionetelevisori.dao.televisore;
 
 import java.sql.Connection;
+import java.util.ArrayList;
 import java.util.List;
 
 import it.gestionetelevisori.dao.DB_Mock;
@@ -67,6 +68,24 @@ public class TelevisoreDAOImpl implements TelevisoreDAO {
 			return 1;
 		}
 		return 0;
+	}
+
+	@Override
+	public List<Televisore> findByExample(Televisore input) throws Exception {
+		List<Televisore> listaDiTuttiTelevisori = this.list();
+		List<Televisore> risultato = new ArrayList<Televisore>();
+
+		for (Televisore televisoreItem : listaDiTuttiTelevisori) {
+			if (televisoreItem.getCodice().startsWith(input.getCodice())
+					&& televisoreItem.getMarca().startsWith(input.getMarca())
+					&& televisoreItem.getModello().startsWith(input.getModello())
+					&& televisoreItem.getNumeroPollici() > input.getNumeroPollici()
+					&& televisoreItem.getPrezzo() > input.getPrezzo()) {
+				risultato.add(televisoreItem);
+			}
+		}
+
+		return risultato;
 	}
 
 }
