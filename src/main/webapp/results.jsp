@@ -60,7 +60,7 @@ th.pulsante{
 		}
 		%>
 
-	<tr><th class="pulsante"><a href="PrepareInsertServlet">Aggiungi Televisore</a></th></tr>
+	<tr><th colspan="4" class="pulsante"><a href="PrepareInsertServlet">Aggiungi Televisore</a></th></tr>
 	</table>
 </body>
 </html>
