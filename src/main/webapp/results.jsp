@@ -26,6 +26,7 @@ th.pulsante{
 	background: #ccc;
 }
 
+
 </style>
 </head>
 <body>

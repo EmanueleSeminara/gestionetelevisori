@@ -13,12 +13,12 @@ public class DB_Mock {
 		// preparo una lista mock perché ancora non ho il collegamento alla
 		// base dati
 		LISTA_TELEVISORI.add(new Televisore(1l, "marca1", "modello1", 160, 25, "asd1234"));
-		LISTA_TELEVISORI.add(new Televisore(1l, "marca2", "modello2", 160, 25, "asd1235"));
-		LISTA_TELEVISORI.add(new Televisore(1l, "marca3", "modello3", 160, 25, "asd1236"));
-		LISTA_TELEVISORI.add(new Televisore(1l, "marca4", "modello4", 160, 25, "asd1237"));
-		LISTA_TELEVISORI.add(new Televisore(1l, "marca5", "modello5", 160, 25, "asd1238"));
-		LISTA_TELEVISORI.add(new Televisore(1l, "marca6", "modello6", 160, 25, "asd1239"));
-		LISTA_TELEVISORI.add(new Televisore(1l, "marca7", "modello7", 160, 25, "asd1230"));
+		LISTA_TELEVISORI.add(new Televisore(2l, "marca2", "modello2", 160, 25, "asd1235"));
+		LISTA_TELEVISORI.add(new Televisore(3l, "marca3", "modello3", 160, 25, "asd1236"));
+		LISTA_TELEVISORI.add(new Televisore(4l, "marca4", "modello4", 160, 25, "asd1237"));
+		LISTA_TELEVISORI.add(new Televisore(5l, "marca5", "modello5", 160, 25, "asd1238"));
+		LISTA_TELEVISORI.add(new Televisore(6l, "marca6", "Topolino", 300, 25, "asd1239"));
+		LISTA_TELEVISORI.add(new Televisore(7l, "Pippo7", "modello7", 300, 25, "asd1230"));
 
 	}
 
